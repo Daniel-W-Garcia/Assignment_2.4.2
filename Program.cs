@@ -4,6 +4,8 @@ int[] firstArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 int[] secondArray = {2, 4, 6, 8, 10, 12, 14};
 int[] thirdArray = {10, 20, 30, 40, 50};
 
+int maxNumber = firstArray.Max(); //this is the built in method to find the max value in an array
+
 int max = FindMaxInArray(firstArray);
 
 
@@ -31,3 +33,5 @@ void TestAllArrays()
                        """);
 }
 TestAllArrays();
+
+
